@@ -4,7 +4,7 @@ function nextPalindrome(num) {
 
 	function palindrome(n) {
 		const str = n.toString();
-		return str === str.toSplit('').reverse().join('');
+		return str === str.split('').reverse().join('');
 	}
 	num++;
 
@@ -14,7 +14,11 @@ function nextPalindrome(num) {
 	return num;
 }
 
-// const input = prompt("Enter a palindrome number");
-// alert(nextPalindrome(input));
+
+
+const input = prompt("Enter a palindrome number");
+alert(nextPalindrome(input));
+
+
 
 
